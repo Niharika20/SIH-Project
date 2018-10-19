@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tag.photocaptureandgallery.Home">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="16dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="MissingConstraints">
+
+        <SearchView
+            android:layout_width="286dp"
+            android:layout_height="34dp" />
+
+        <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:shrinkColumns="*"
+            android:stretchColumns="*">
+            <!-- Row 1 with single column -->
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+
+            </TableRow>
+
+            <!-- Row 2 with 3 columns -->
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:id="@+id/garbage"
+                    android:layout_width="100dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="4dp"
+                    android:background="@drawable/g"
+                    android:paddingTop="1dp"
+                    android:text="Garbage Dump"
+                    android:textColor="#fff" />
+
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="4dp"
+                    android:background="@drawable/orma"
+
+                    android:paddingTop="1dp"
+                    android:text="Animals"
+                    android:textColor="#fff" />
+                <!--android:drawableTop="@drawable/orma"-->
+
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="4dp"
+                    android:background="@drawable/trees"
+                    android:paddingTop="1dp"
+                    android:text="Trees"
+                    android:textColor="#fff" />
+
+            </TableRow>
+
+            <!-- Row 3 with 2 columns -->
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="4dp"
+                    android:background="@drawable/acc"
+                    android:paddingTop="1dp"
+                    android:text="NGO"
+                    android:textColor="#fff" />
+
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="4dp"
+                    android:background="@drawable/poor"
+                    android:paddingTop="1dp"
+                    android:text="Accidents"
+                    android:textColor="#fff" />
+
+
+            </TableRow>
+
+        </TableLayout>
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
+

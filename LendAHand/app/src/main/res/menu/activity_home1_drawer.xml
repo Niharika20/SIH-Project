@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_action_name9"
+            android:title="Complaints Posted" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_action_name10"
+            android:title="Reward Points" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_action_name3"
+            android:title="Vote Up Complaints" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_action_name4"
+            android:title="Settings" />
+
+        <item
+            android:id="@+id/nav_send"
+            android:icon="@drawable/ic_action_name5"
+            android:title="Report Debug" />
+        <item
+            android:id="@+id/nav_Privacy"
+            android:icon="@drawable/ic_action_name6"
+            android:title="Privacy Policy" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_action_name7"
+            android:title="Logout" />
+        <item
+            android:id="@+id/nav_FAQs"
+            android:icon="@drawable/ic_action_name8"
+            android:title="FAQs" />
+
+    </group>
+</menu>
